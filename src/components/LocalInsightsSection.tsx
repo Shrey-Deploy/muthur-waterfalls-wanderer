@@ -34,7 +34,7 @@ const LocalInsightsSection = () => {
                 Sample authentic Karnataka dishes in small eateries and homes. Try the ragi mudde (finger millet balls), 
                 akki roti (rice flatbread), and local vegetable preparations.
               </p>
-              <Button variant="outline" className="w-fit text-white border-white hover:bg-white/20">
+              <Button variant="outline" className="w-fit border-white hover:bg-white/20 text-zinc-900">
                 Discover Local Food
               </Button>
             </div>
