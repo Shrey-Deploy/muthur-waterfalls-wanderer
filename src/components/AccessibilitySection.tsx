@@ -94,21 +94,21 @@ const AccessibilitySection = () => {
             Muthyalamaduvu is perfect for a day trip from Bangalore. Here's a suggested timeline:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-center">
-            <div className="bg-white bg-opacity-20 p-3 rounded-md">
+            <div className="bg-gradient-to-br from-nature-forest-light/80 to-nature-forest p-3 rounded-md shadow-md transform hover:scale-105 transition-transform border border-white/30">
               <p className="font-semibold text-lg text-white">7:30 AM</p>
-              <p className="text-white/90">Start from Bangalore</p>
+              <p className="text-white font-medium">Start from Bangalore</p>
             </div>
-            <div className="bg-white bg-opacity-20 p-3 rounded-md">
+            <div className="bg-gradient-to-br from-nature-forest-light/80 to-nature-forest p-3 rounded-md shadow-md transform hover:scale-105 transition-transform border border-white/30">
               <p className="font-semibold text-lg text-white">9:00 AM</p>
-              <p className="text-white/90">Begin trekking</p>
+              <p className="text-white font-medium">Begin trekking</p>
             </div>
-            <div className="bg-white bg-opacity-20 p-3 rounded-md">
+            <div className="bg-gradient-to-br from-nature-forest-light/80 to-nature-forest p-3 rounded-md shadow-md transform hover:scale-105 transition-transform border border-white/30">
               <p className="font-semibold text-lg text-white">12:30 PM</p>
-              <p className="text-white/90">Lunch & relaxation</p>
+              <p className="text-white font-medium">Lunch & relaxation</p>
             </div>
-            <div className="bg-white bg-opacity-20 p-3 rounded-md">
+            <div className="bg-gradient-to-br from-nature-forest-light/80 to-nature-forest p-3 rounded-md shadow-md transform hover:scale-105 transition-transform border border-white/30">
               <p className="font-semibold text-lg text-white">4:00 PM</p>
-              <p className="text-white/90">Return to Bangalore</p>
+              <p className="text-white font-medium">Return to Bangalore</p>
             </div>
           </div>
         </div>
