@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +99,46 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-poppins;
   }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-lora;
+  }
+}
+
+.travel-section {
+  @apply py-12 md:py-16 px-4 max-w-7xl mx-auto;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-6 text-nature-forest;
+}
+
+.section-subtitle {
+  @apply text-xl font-semibold mb-2 text-nature-forest-light;
+}
+
+.section-text {
+  @apply text-base md:text-lg leading-relaxed mb-6 text-gray-700;
+}
+
+.card-hover-effect {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+.bg-gradient-green {
+  background-image: linear-gradient(135deg, #2D6A4F 0%, #52B788 100%);
+}
+
+.bg-gradient-blue {
+  background-image: linear-gradient(135deg, #0EA5E9 0%, #7DD3FC 100%);
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.parallax-bg {
+  @apply bg-fixed bg-center bg-no-repeat bg-cover;
 }
