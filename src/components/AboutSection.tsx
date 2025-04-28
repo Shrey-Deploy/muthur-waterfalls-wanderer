@@ -4,8 +4,9 @@ import { MapPin } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="about-section" className="travel-section">
-      <div className="max-w-5xl mx-auto">
+    <section id="about-section" className="travel-section relative overflow-hidden">
+      <div className="absolute inset-0 bg-nature-light forest-pattern-bg -z-10"></div>
+      <div className="max-w-5xl mx-auto relative z-10">
         <h2 className="section-title">Welcome to Muthur (ಮದರ್)</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -43,7 +44,7 @@ const AboutSection = () => {
         
         <h3 className="section-subtitle">About Muthyalamaduvu Waterfalls</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-          <Card className="overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+          <Card className="overflow-hidden shadow-md hover:shadow-xl transition-shadow glass-card">
             <img 
               src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
               alt="Muthyalamaduvu Waterfalls" 
@@ -58,7 +59,7 @@ const AboutSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+          <Card className="overflow-hidden shadow-md hover:shadow-xl transition-shadow glass-card">
             <img 
               src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
               alt="Forest around Muthyalamaduvu" 
@@ -73,7 +74,7 @@ const AboutSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+          <Card className="overflow-hidden shadow-md hover:shadow-xl transition-shadow glass-card">
             <img 
               src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
               alt="Sunlight through trees" 

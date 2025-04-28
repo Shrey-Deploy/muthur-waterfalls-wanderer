@@ -5,8 +5,9 @@ import { Sun, CloudSun } from "lucide-react";
 
 const TrekkingSection = () => {
   return (
-    <section className="travel-section bg-gray-50">
-      <div className="max-w-5xl mx-auto">
+    <section className="travel-section relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-blue-50 bg-pattern-dots -z-10"></div>
+      <div className="max-w-5xl mx-auto relative z-10">
         <h2 className="section-title">The Trekking Experience</h2>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
@@ -34,14 +35,14 @@ const TrekkingSection = () => {
             <div>
               <h3 className="text-lg font-semibold mb-2 text-nature-forest">Best Trekking Seasons</h3>
               <div className="flex flex-wrap gap-4">
-                <div className="flex items-center gap-2 bg-amber-50 px-3 py-2 rounded-md">
+                <div className="flex items-center gap-2 bg-amber-50 px-3 py-2 rounded-md backdrop-blur-sm bg-opacity-70 shadow-sm">
                   <Sun size={20} className="text-amber-500" />
                   <div>
                     <p className="font-medium">Post-Monsoon (Sep-Nov)</p>
                     <p className="text-sm text-gray-600">Highest water flow, lush greenery</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-2 bg-blue-50 px-3 py-2 rounded-md">
+                <div className="flex items-center gap-2 bg-blue-50 px-3 py-2 rounded-md backdrop-blur-sm bg-opacity-70 shadow-sm">
                   <CloudSun size={20} className="text-blue-500" />
                   <div>
                     <p className="font-medium">Winter (Dec-Feb)</p>
@@ -63,7 +64,7 @@ const TrekkingSection = () => {
         
         <h3 className="section-subtitle">What You'll Experience</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
-          <Card className="border-l-4 border-nature-forest shadow-md">
+          <Card className="border-l-4 border-nature-forest shadow-md backdrop-blur-sm bg-white/60">
             <CardContent className="pt-6">
               <h4 className="font-semibold text-lg mb-2">Scenic Views</h4>
               <p className="text-gray-600">
@@ -73,7 +74,7 @@ const TrekkingSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="border-l-4 border-nature-leaf shadow-md">
+          <Card className="border-l-4 border-nature-leaf shadow-md backdrop-blur-sm bg-white/60">
             <CardContent className="pt-6">
               <h4 className="font-semibold text-lg mb-2">Rich Biodiversity</h4>
               <p className="text-gray-600">
@@ -83,7 +84,7 @@ const TrekkingSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="border-l-4 border-nature-water shadow-md">
+          <Card className="border-l-4 border-nature-water shadow-md backdrop-blur-sm bg-white/60">
             <CardContent className="pt-6">
               <h4 className="font-semibold text-lg mb-2">Natural Rock Formations</h4>
               <p className="text-gray-600">

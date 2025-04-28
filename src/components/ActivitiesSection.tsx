@@ -37,8 +37,9 @@ const ActivitiesSection = () => {
   ];
 
   return (
-    <section className="travel-section">
-      <div className="max-w-5xl mx-auto">
+    <section className="travel-section relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-r from-emerald-50 to-teal-50 water-pattern-bg -z-10"></div>
+      <div className="max-w-5xl mx-auto relative z-10">
         <h2 className="section-title">Things to Do</h2>
         <p className="section-text max-w-3xl">
           Muthyalamaduvu and its surrounding areas offer numerous activities for nature lovers, 
@@ -48,7 +49,7 @@ const ActivitiesSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           {activities.map((activity, index) => (
-            <Card key={index} className="shadow-md hover:shadow-xl transition-all card-hover-effect">
+            <Card key={index} className="shadow-md hover:shadow-xl transition-all card-hover-effect backdrop-blur-sm bg-white/70 border border-white/50">
               <CardContent className="p-6">
                 <div className="flex items-center gap-3 mb-3">
                   {typeof activity.icon === 'string' ? (
