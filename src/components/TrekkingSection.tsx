@@ -55,9 +55,9 @@ const TrekkingSection = () => {
           
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+              src="/trek.webp" 
               alt="Trekking trail to Muthyalamaduvu" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover max-h-[45rem]"
             />
           </div>
         </div>

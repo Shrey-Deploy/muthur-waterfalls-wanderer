@@ -33,11 +33,11 @@ const AboutSection = () => {
             </a>
           </div>
           
-          <div className="rounded-lg overflow-hidden shadow-lg card-hover-effect">
+          <div className="">
             <img 
-              src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+              src="/waterfall1.png" 
               alt="Muthur Village Landscape" 
-              className="w-full h-64 object-cover"
+              className="w-full h-72 object-cover rounded-lg"
             />
           </div>
         </div>
@@ -46,7 +46,7 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
           <Card className="overflow-hidden shadow-md hover:shadow-xl transition-shadow glass-card">
             <img 
-              src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+              src="/waterfall1.png" 
               alt="Muthyalamaduvu Waterfalls" 
               className="w-full h-48 object-cover"
             />
@@ -61,7 +61,7 @@ const AboutSection = () => {
           
           <Card className="overflow-hidden shadow-md hover:shadow-xl transition-shadow glass-card">
             <img 
-              src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+              src="/scene.webp" 
               alt="Forest around Muthyalamaduvu" 
               className="w-full h-48 object-cover"
             />
@@ -76,7 +76,7 @@ const AboutSection = () => {
           
           <Card className="overflow-hidden shadow-md hover:shadow-xl transition-shadow glass-card">
             <img 
-              src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+              src="/scene1.webp" 
               alt="Sunlight through trees" 
               className="w-full h-48 object-cover"
             />

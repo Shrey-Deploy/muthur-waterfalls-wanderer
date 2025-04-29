@@ -13,7 +13,7 @@ const LocalInsightsSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
           <div className="rounded-lg overflow-hidden relative group shadow-xl">
-            <img src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Local village near Muthur" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+            <img src="/waterfall1.png" alt="Local village near Muthur" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent backdrop-blur-[2px] group-hover:backdrop-blur-none transition-all flex flex-col justify-end p-6 text-white">
               <h3 className="text-2xl font-bold mb-2">Local Culture</h3>
               <p className="mb-3">
@@ -27,7 +27,7 @@ const LocalInsightsSection = () => {
           </div>
           
           <div className="rounded-lg overflow-hidden relative group shadow-xl">
-            <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Local food from Karnataka" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+            <img src="/scene.webp" alt="Local food from Karnataka" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent backdrop-blur-[2px] group-hover:backdrop-blur-none transition-all flex flex-col justify-end p-6 text-white">
               <h3 className="text-2xl font-bold mb-2">Local Cuisine</h3>
               <p className="mb-3">
